@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 0 auto;
+    
+}
+.header h1{
+    display: flex;
+    position: relative;
+    width: 196px;
+    height: 39px;
+    top: 118px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    padding-bottom: 32px;
+    color: #000000;
+    margin: auto;
+}
+.header h2{
+    position: relative;
+    height: 42px; 
+    top: 155px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.295em;
+
+    color: #000000;
+    margin: auto;
+}
+.navBar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 22px;
+    gap: 54px;
+    justify-content: center;
+    position: absolute;
+    width: 580px;
+    height: 76px;
+    top: 305px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.horizontal{
+    position: absolute;
+    width: 815px;
+    height: 340px;
+    left: 13px;
+    top: 518px;
+    }
+.vertical{
+    position: absolute;
+    width: 426px;
+    height: 694.85px;
+    left: 841px;
+    top: 517px;
+}
+.q1{
+    position: absolute;
+    width: 402px;
+    height: 340px;
+    left: 428px;
+    top: 871px;
+}
+.q2{
+    position: absolute;
+    width: 402px;
+    height: 340px;
+    left: 13px;
+    top: 871px;
+}
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.fotos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    right: 640px;
+    background-color: #f5f5f5 ;
+}
+footer{
+    justify-content: end;
+    position: relative;
+    height: 58px;
+    top: 1348px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+.redesSociais{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-top: 36px;
+    padding-bottom: 57px;
+}
